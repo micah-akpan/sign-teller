@@ -1,0 +1,17 @@
+{
+  "name": "sign-teller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:micah-akpan/sign-teller.git",
+  "author": "Micah Akpan <mickey4sure2k7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  }
+}
