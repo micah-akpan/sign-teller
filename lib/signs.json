@@ -1,0 +1,117 @@
+[
+  {
+    "min": "July 17",
+    "max": "August 6",
+    "sign": "Cancer",
+    "facts": ["Intuitive", "Emotional", "Intelligent", "Passionate"],
+    "element": "Water",
+    "luckyGem": "Ruby"
+  },
+
+  {
+    "min": "July 17",
+    "max": "February 13",
+    "sign": "Capricorn",
+    "facts": ["Proud", "Bold", "Ambitious"],
+    "element": "Fire",
+    "luckyGem": "Carnelian"
+  },
+
+  {
+    "min": "December 19",
+    "max": "January 19",
+    "sign": "Sagittarius",
+    "facts": ["Adventurous", "Creative", "Strong Willed"],
+    "element": "fire",
+    "luckyGem": "Topaz"
+  },
+
+  {
+    "min": "April 21",
+    "max": "May 12",
+    "sign": "Aries",
+    "facts": ["Ambitious", "Independent", "Impatient"],
+    "element": "Fire",
+    "luckyGem": "Diamond"
+  },
+
+  {
+    "min": "May 13",
+    "max": "June 19",
+    "sign": "Taurus",
+    "facts": ["Dependable", "Musical", "Practical"],
+    "element": "Earth",
+    "luckyGem": "Emerald"
+  },
+
+  {
+    "min": "June 20",
+    "max": "July 16",
+    "sign": "Gemini",
+    "facts": ["Curious", "Affectionate", "Kind"],
+    "element": "Air",
+    "luckyGem": "Tiger's Gem & Emerald"
+  },
+
+  {
+    "min": "August 7",
+    "max": "September 14",
+    "sign": "Leo",
+    "facts": ["Proud", "Bold", "Ambitious"],
+    "element": "Fire",
+    "luckyGem": "Carnelian"
+  },
+
+  {
+    "min": "Dec 7",
+    "max": "Dec 18",
+    "sign": "Ophiuchus",
+    "facts": [],
+    "element": ""
+  },
+
+  {
+    "min": "February 14",
+    "max": "March 9",
+    "sign": "Aquarius",
+    "facts": [],
+    "element": "Air",
+    "luckyGem": "Amethyst"
+  },
+
+  {
+    "min": "March 10",
+    "max": "April 20",
+    "sign": "Pisces",
+    "facts": ["Creative", "Sensitive", "Artistic"],
+    "element": "Water",
+    "luckyGem": "Moonstone"
+  },
+
+  {
+    "min": "September 15",
+    "max": "November 3",
+    "sign": "Virgo",
+    "facts": ["Graceful", "Organized", "Kind"],
+    "element": "Earth",
+    "luckyGem": ""
+  },
+
+  {
+    "min": "November 4",
+    "max": "November 22",
+    "sign": "Libra",
+    "facts": ["Diplomatic", "Artistic", "Intelligent"],
+    "element": "Air",
+    "luckyGem": "Sapphire"
+  },
+
+  {
+    "min": "November 23",
+    "max": "December 6",
+    "sign": "Scorpio",
+    "facts": ["Seductive", "Passionate", "Independent"],
+    "element": "Water",
+    "luckyGem": "Topaz and Opal"
+  }
+]
