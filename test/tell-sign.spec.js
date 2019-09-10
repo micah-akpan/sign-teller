@@ -1,5 +1,5 @@
-const tellSign = require('../lib/tell-sign');
 const assert = require('assert');
+const tellSign = require('../lib/tell-sign');
 
 describe('Library Main', () => {
   describe('tellSign', () => {
