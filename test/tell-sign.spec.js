@@ -17,5 +17,10 @@ describe('Library Main', () => {
       const sign = tellSign('08/16/1900');
       assert.equal(sign.sign, 'Leo');
     });
+
+    it('should return the right zodiac sign when giving a zodiac type', () => {
+      const sign = tellSign('05/22/1900', 'tropical');
+      assert.equal(sign.sign, 'Gemini');
+    });
   })
 })
