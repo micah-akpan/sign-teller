@@ -3,7 +3,7 @@
 
 # Sign Teller
 
-Sign Teller is a library that provides information about zodiac signs. It provides the user with their zodiac sign when given the user's date of birth
+Sign Teller is a library that provides information about zodiac signs. Ever need to wish a friend happy birthday with their zodiac sign, then you need `Sign Teller`.
 
 ## Getting Started
 
@@ -24,13 +24,13 @@ Sign Teller depends on a few pre-requisites:
   - Use the library in your application
 
 ### Usage
-Tell sign is a standalone utility wrapped in a simple function and this function is also the library's main entry point.
+`tellSign` is a standalone utility wrapped in a simple function and this function is also the library's main entry point.
 Below is a demonstration of how to use this library
 ```
   const tellSign = require('sign-teller'); // if you use commonJS modules (import('sign-teller') if you use ES6 modules)
   const dateOfBirth = '07/04/1900';
   const signDetails = tellSign(dateOfBirth);
-  console.info(signDetails);
+  console.log(`Happy birthday, ${signDetails.sign}!);
 ```
 
 ### API

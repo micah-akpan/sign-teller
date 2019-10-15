@@ -1,14 +1,14 @@
 {
   "name": "sign-teller",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/micah-akpan/sign-teller.git"
   },
   "author": "Micah Akpan <mickey4sure2k7@gmail.com>",
-  "description": "Sign Teller is a simple-to-use library that tells one what their zodiac sign is",
-  "keywords": ["zodiac signs", "signs", "zodiac", "astrology"],
+  "description": "Sign Teller is a simple-to-use library that tells zodiac signs",
+  "keywords": ["zodiac signs", "signs", "zodiac", "astrology", "birthday"],
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.6",
