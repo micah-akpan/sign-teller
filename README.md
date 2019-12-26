@@ -3,7 +3,8 @@
 
 # Sign Teller
 
-Sign Teller is a library that provides information about zodiac signs. Ever need to wish a friend happy birthday with their zodiac sign, then you need `Sign Teller`.
+Sign Teller is a library that provides information about zodiac signs. 
+Ever need to wish a friend happy birthday with their zodiac sign, say Happy Birthday, **Gemini**? then you need `sign-teller`.
 
 ## Getting Started
 
@@ -24,11 +25,11 @@ Sign Teller depends on a few pre-requisites:
   - Use the library in your application
 
 ### Usage
-`tellSign` is a standalone utility wrapped in a simple function and this function is also the library's main entry point.
+`tellSign` is a standalone utility library wrapped in a simple function and this function is also the library's main entry point.
 Below is a demonstration of how to use this library
 ```
   const tellSign = require('sign-teller'); // if you use commonJS modules (import('sign-teller') if you use ES6 modules)
-  const dateOfBirth = '07/04/1900';
+  const dateOfBirth = { day: 4, month: 7 }
   const signDetails = tellSign(dateOfBirth);
   console.log(`Happy birthday, ${signDetails.sign}!);
 ```
@@ -38,8 +39,8 @@ Below is a demonstration of how to use this library
   - `birthDate` must be in this format: MM/DD/YYYY
   - `type` is 'sidereal' by default. Set it to 'tropical` if you want a zodiac interpretation based on the tropical calendar
   - Returns an object containing the following properties:
-    - min: string // the lower date interval of the sign
-    - max: string // the higher date interval of the sign
+    - from: string // the lower date interval of the sign
+    - to: string // the higher date interval of the sign
     - sign: string // the name of the sign
     - facts: Array<string>
     - elements: string
