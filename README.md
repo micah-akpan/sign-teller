@@ -31,7 +31,7 @@ Below is a demonstration of how to use this library
   const tellSign = require('sign-teller'); // if you use commonJS modules (import('sign-teller') if you use ES6 modules)
   const dateOfBirth = { day: 4, month: 7 }
   const signDetails = tellSign(dateOfBirth);
-  console.log(`Happy birthday, ${signDetails.sign}!);
+  console.log(`Happy birthday, ${signDetails.sign}!`);
 ```
 
 ### API
