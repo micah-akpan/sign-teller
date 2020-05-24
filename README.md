@@ -35,23 +35,21 @@ Below is a demonstration of how to use this library
 ```
 
 ### API
-- tellSign(birthDate: string, type: string): Object
-  - `birthDate` must be in this format: MM/DD/YYYY
+- tellSign(birthDate: { day: number, month: number }, type: string): Object
+  - `birthDate` must be an object with a day and month properties, signifying the birthday and the birth month respectively
   - `type` is 'sidereal' by default. Set it to 'tropical` if you want a zodiac interpretation based on the tropical calendar
   - Returns an object containing the following properties:
     - from: string // the lower date interval of the sign
-    - to: string // the higher date interval of the sign
+    - to: string // the upper date interval of the sign
     - sign: string // the name of the sign
     - facts: Array<string>
-    - elements: string
-    - luckyGem: string
+    - elements: string // sign's element for e.g. fire
+    - luckyGem: string // Lucky gem for this sign. E.g. Topaz
 
 ## Running the tests
-
 - Run test by using `yarn test`
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 ## Acknowledgments
