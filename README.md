@@ -7,28 +7,21 @@ Sign Teller is a library that provides information about zodiac signs.
 Ever need to wish a friend happy birthday with their zodiac sign, say Happy Birthday, **Gemini**? then you need `sign-teller`.
 
 ## Getting Started
-
 To use `sign-teller` in your application as a dependency:
-- yarn add `sign-teller`
+- yarn add `sign-teller` or npm install `sign-teller`
 - Require (using CommonJS or ES6 modules) it in your application
 - See the Usage section below
 
 ### Prerequisites
-
 Sign Teller depends on a few pre-requisites:
 - [Node](https://nodejs.org/docs/latest-v11.x/api/) >= 6
 
-### Installing
-
-  - Clone the repository: `git clone https://github.com/micah-akpan/sign-teller.git`
-  - Install the dependencies by using `npm install` or if you use yarn, simply `yarn`
-  - Use the library in your application
 
 ### Usage
 `tellSign` is a standalone utility library wrapped in a simple function and this function is also the library's main entry point.
 Below is a demonstration of how to use this library
 ```
-  const tellSign = require('sign-teller'); // if you use commonJS modules (import('sign-teller') if you use ES6 modules)
+  const tellSign = require('sign-teller'); // import signTeller from 'sign-teller' if you use ES6 modules
   const dateOfBirth = { day: 4, month: 7 }
   const signDetails = tellSign(dateOfBirth);
   console.log(`Happy birthday, ${signDetails.sign}!`);
